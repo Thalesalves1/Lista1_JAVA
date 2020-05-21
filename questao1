@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+
+    Scanner ler = new Scanner(System.in);
+
+    double num1;
+    double num2;
+    double soma;
+    double sub;
+    double mult;
+    double media;
+
+    System.out.printf("Informe o primeiro número:");
+    num1 = ler.nextDouble();
+
+    System.out.printf("Informe o segundo número:");
+    num2 = ler.nextDouble();
+
+   soma = num1 + num2;
+   sub = num1 - num2;
+   mult =  num1 * num2;
+   media =  (num1 + num2)/2;
+
+   System.out.printf("A Soma é:\t" + soma);
+   System.out.printf("\nA subtração é:\t" + sub);
+   System.out.printf("\nA multiplicação é:\t" + mult);
+   System.out.printf("\nA media é:\t"+ media);
+    
+  }
+}

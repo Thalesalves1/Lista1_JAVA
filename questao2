@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+
+    Scanner ler = new Scanner(System.in);
+
+    float c;
+    float f;
+    
+
+    System.out.printf("Informe a temperatura em graus Celsius:\n");
+    c = ler.nextFloat();
+
+    f = (9 * c + 160)/5;
+
+    System.out.printf("Fahrenheit:\t" + f);
+    
+  }
+}

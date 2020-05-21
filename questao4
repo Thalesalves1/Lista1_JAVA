@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+
+    Scanner ler = new Scanner(System.in);
+
+    int a;
+    int b;
+    int trocaNum;
+
+    System.out.printf("Digite um numero para a:\n");
+    a = ler.nextInt();
+
+    System.out.printf("Digite um numero para b:\n");
+    b = ler.nextInt();
+
+   trocaNum = a;
+   a = b;
+   b = trocaNum;
+  
+  System.out.printf("\nValor trocado de b é:\t"+ a);
+  System.out.printf("\nValor trocado de a é:\t"+ b);
+
+    
+  }
+}
